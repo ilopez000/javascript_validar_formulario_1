@@ -1,8 +1,8 @@
 function validarFormulario() {
-    var nombre = document.getElementById('nombre').value;
-    var apellido = document.getElementById('apellido').value;
-    var email = document.getElementById('email').value;
-    var telefono = document.getElementById('telefono').value;
+    let nombre = document.getElementById('nombre').value;
+    let apellido = document.getElementById('apellido').value;
+    let email = document.getElementById('email').value;
+    let telefono = document.getElementById('telefono').value;
 
 
     alert("Formulario enviado con éxito!");
